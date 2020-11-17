@@ -617,3 +617,218 @@ clear
 cd ..
 clear
 cp .history git/history_20201117
+git status
+cd git
+git status
+git add .
+git commit -m "historydate"
+git push
+ls
+cat .git
+clear
+ls
+ls -a
+cd .git
+ls
+cd ..
+clear
+cd ..
+cd git
+git status
+cd ..
+git clone
+history -i
+history -f
+history -n
+history -i
+pwd
+clear
+cd pwd
+clear
+ls
+cd Data
+clear
+ls
+ls -l
+cd shee
+cd shell
+cls
+clear
+ls -l
+	wc Text_example.txt
+head -n 8 Text_example.txt
+	wc -n Text_example.txt
+wc -w Text_example.txt
+wc -l Text_example.txt
+wc -c Text_example.txt
+echo -n "hola"|wc
+ls
+clear
+cat Text_example.txt| wc
+ls
+wc Text_example.txt
+cat Text_example.txt | wc -l
+wc Text_example.txt
+cd ..
+clear
+ls
+cd opentraveldata
+ls
+tail -c -1k optd_aircraft.csv| wc
+head -c 1k optd_aircraft.csv|wc
+head -c 1K optd_aircraft.csv|wc
+head -c 1k optd_aircraft.csv|wc
+clear
+ls
+clear
+ls -lSa
+ls -lSa -n 1 | > largest_file.txt
+ls -lSa -n 1
+ls -lSa -n
+ls -lSa | wc -1
+ls -lSa | wc -l1
+ls -lSa | wc -l 1
+ls -lSa
+ls -lSa | cat -n 1 >> larges_file.txt
+ls -lSa | cat -n 1 > largest_file.txt
+ls
+clear
+ls
+cat optd_aircraft.csv -n 2
+cat optd_aircraft.csv -n -2
+cat optd_aircraft.csv -n --2
+cat optd_aircraft.csv -n
+cat optd_aircraft.csv -n 1
+cat optd_aircraft.csv -n 8
+clear
+cat -n 2 optd_aircraft.csv
+clear
+ls
+cat largest_file.txt
+cat larges_file.txt
+clear
+cat -n 2 ref_airline_nb_of_flights.csv
+cat -2 ref_airline_nb_of_flights.csv
+cat -n 5 ref_airline_nb_of_flights.csv
+ls
+clear
+ls
+rm -r larges_file.txt
+rm -r largest_file.txt 
+clear
+ls -lSa
+clear
+ls -l
+ls -lS
+ls -lS | less -1
+ls -lS | cat -1
+ls -lS | cat -m
+ls -lS | cat -n
+ls -lS | head -1
+ls -lS | head -2
+cat --5 optd_aircraft.csv
+cat -5 optd_aircraft.csv
+ls -lS | head -2
+ls -lS | head -2 >>largest_file.txt
+ls
+cat largest_file.txt
+clear
+ls
+cd ..
+ls
+whereis Finn.txt
+ls
+clear
+cd opentraveldata
+clear
+ls -lS
+cd ..
+ls
+cd ..
+ls
+cd Data
+ls
+cd airline_tickets
+ls
+cd ..
+clear
+ls
+cd shell
+ls
+wc -w Finn.txt
+clar
+clear
+head -3 Text_example.txt
+cat -m | head -5 Text_example.txt
+ls
+cat -n Text_example.txt|head -n 3
+cd ..
+clear
+cd opentraveldata
+ls -ls
+ls -lSr
+clear
+ls
+cd ..
+clear
+cd shell
+ls
+clear
+cat -n Text_example.txt >> Text_example_cat
+cat Text_example_cat
+clear
+cd ..
+clear
+gedit .history
+clear
+cls
+ls
+cd Data/shell
+clear
+new_file <cat Text_example.txt Text_example.txt
+cat Text_example.txt Text_example.txt >> new_file.txt
+cat new_file.txt
+clear
+cd
+clear
+ls+
+ls
+clear
+head -5 Finn.txt | wc -w
+clear
+ls
+cat /etc/os-release
+history -i| grep rsync
+history| grep rsync
+cat $/.history | grep rsync
+cat ~/.history | grep rsync
+cat ~/.history | grep release
+echo "date"
+echo 'date'
+echo $date
+echo "$date"
+echo '$date'
+echo '$(date)'
+echo $(date)
+touch filedate
+vim fildate
+gedit filedate
+head filedate
+gedit filedate
+cat filedate
+echo "this file is created by kshcool on $(date)\
+"
+gedit filedate
+echo "this file is created by kshcool on $(date)\
+"
+echo "this file is created by kshcool on $(date)" >>filedate
+clear
+cat filedate
+echo filedate
+filedate
+gedit filedate
+echo filedate
+echo "filedate"
+echo 'filedate'
+cat ~/.history | grep cp
+cp .history git/history_20201117
