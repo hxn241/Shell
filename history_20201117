@@ -832,3 +832,103 @@ echo "filedate"
 echo 'filedate'
 cat ~/.history | grep cp
 cp .history git/history_20201117
+cd git
+clear
+git status
+git add .
+git commit -m "new file"
+git push
+clear
+ls
+cd ..
+ls
+./ filedate
+./filedate
+gedit filedate
+./first_dir
+sudo su
+cd ..
+clear
+ls
+cd dsc
+ls
+clear
+ls
+filedate.sh
+.
+./filedate.sh
+echo "this file is created by kshcool on $(date)" >>filedate
+echo "this file is created by kshcool on $(date)\
+"
+clear
+ls
+cat filedate
+gedit filedate
+CAT FILEDATE
+cat filedate
+gedit filedate
+cat filedate
+$user
+echo $user
+echo $USER
+man date
+date
+echo <filedate
+gedit filedate
+echo <filedate
+echo filedate
+~/.history | tail -20
+~/.history | tail
+clear
+sudo su
+clear
+pwd
+ls
+tail -20 .history
+cd Data
+cd shell
+ls
+clear
+man cat
+clear
+ls
+cat Text_example
+cat Text_example.txt
+tail -n 1 Text_example.txt
+tail -n +2 Text_example.txt
+tail -n +1 Text_example.txt
+tail -n 2 Text_example.txt
+tail -n +3 Text_example.txt
+tail -n +1 Text_example.txt
+tail -n Text_example.txt
+tail -n +1 Text_example.txt
+cat Text_example.txt
+tail -n +3 Text_example.txt| head -n +3
+tail -n +3 Text_example.txt| head -n +2
+tail -n +3 Text_example.txt| head -n 
+tail -n +3 Text_example.txt| head -n 1
+tail -n +3 Text_example.txt
+head -n 3 Text_example.txt
+head -n -3 Text_example.txt
+head -n +3 Text_example.txt
+head -3 Text_example.txt
+head 3 Text_example.txt
+head  +4  Text_example.txt
+head  -n +4  Text_example.txt
+head  -n   Text_example.txt
+head  -n +2   Text_example.txt
+wc -l Text_example.txt
+head  -n +4   Text_example.txt
+head  -n +4  Text_example.txt | tail -n +2
+head  -n +4  Text_example.txt | tail -n +3
+head  -n +4  Text_example.txt | tail -n +3 >> head-2tail-3
+clear
+ls
+clear
+ls
+cd ..
+cd git
+cd ..
+cd git
+clear
+cp ~/.history history_20201117
