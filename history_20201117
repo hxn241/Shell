@@ -1,0 +1,619 @@
+sudo echo echo
+clear
+su
+sudo su
+clear
+ls
+clear
+echo hola
+echo "Hello world"
+echo Hello ; echo hello
+echo "Hello ; echo hello"
+echo 'hello ; echo hello2'
+echo $SHELL
+echo "$SHELL"
+echo "SHELL"
+echo "$SHELL"
+echo "$shell"
+echo '$SHELL'
+echo `date`
+date
+echo `date`
+echo "$(date)"
+SHELL=HELLO
+ECHO $SHELL
+echo $SHELL
+printnenv
+printenv
+clear
+history
+gedit .history
+whoami
+history
+echo "world \is mine"
+echo "hola hola $SHELL"
+echo "hola hola $(SHELL)"
+echo `hola hola date`
+echo `date`
+echo `echo $date`
+echo $date
+echo "world\
+is nice\
+and so on"
+clear
+echo 'this is\
+another "\
+one'
+echo "this is \
+double"
+single '\
+this is single"\
+'
+echo "world \\
+is on the same line"
+echo "
+echo "This is \n new line"
+echo "This is /t tabulation?\
+"
+echo "This is /t tabulation?"\
+"
+echo "this is \t new line"
+echo "This is \\ new line"
+echo this; echo that
+echo this \;echo that
+echo " this is text with " comillas dobles"\
+"
+echo "this is text with \"comillas dobles"
+echo "this is dollar sign \$SHELL"
+echo "this is dollar sign $SHELL"
+echo "this is dollar sign \$SHELL"
+echo -e this ; echo that
+echo -e this \; echo that
+echo "this ; echo that"
+cat /proc/cpuinfo
+cat /etc/os-release
+cd Data
+ls
+cd shell
+ls
+cd
+ls
+clear
+cd Data/shell
+cd ..
+cd shell
+cd ../
+cd shell
+clear
+cd ..
+cd
+cd -
+bash
+cd../
+cd -
+exit
+cd shell
+cat Text_example.txt
+cat -n Text_example.txt
+cat -n Text_example.txt Text_example.txt Text_example.txt
+cd
+cat Data/shell/
+cd /home
+clear
+ls
+cd dsc
+ls
+clear
+ls
+clear
+ls
+cd Data
+clear
+pwd
+cd
+cat /home/dsc/Data/shell/Text_example.txt
+cat -n /home/dsc/Data/shell/Text_example.txt
+cat -n /home/dsc/Data/shell/Text_example.txt Data/opentraveldata/                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+ls
+cd Data/challenge
+ls
+cd ..
+ls
+cd 
+cd anaconda3
+clear
+ls
+cd..
+cd ..
+ls anaconda3
+cd anaconda3
+ls
+ls -1
+ls -s
+ls -l
+clear
+ls -s -1
+cd
+ls
+ls -a
+ls help
+ls
+clear
+ls -
+ls -a
+cd
+ls-l
+clear
+ls -l
+ls -la
+ls -l Data
+ls Data
+ls -a
+ls -S
+ls -S -l
+ls -aSl
+ls -aSr
+ls -aSrl
+ls -atrl
+ls
+clear
+pwd
+clear
+ls -al
+touch file00
+ls -l file00
+chmod u+x,g-w,o+w file00
+ls -l file00
+rwx = 101 = 2(2)*1 + 2(1)*0 + 2(0)*1 =5
+chmod 777 file00
+ls -l file00
+chmod 770 file00
+ls -l file00
+chmod g+w file00
+chmod g-w file00
+ñs
+ls
+mkdir my_first_directory
+mkdir directory1 directory2
+ls
+clear
+mkdir my_third_dir/uno
+mkdir -p my_third_dir/uno
+rm file00
+rm my_first_directory
+rm -r my_first_directory
+rm -r directory1
+rm -r directory2
+rm -r my_third_dir
+ls
+touch fichero12
+cp fichero12 fichero12
+cp fichero12 fichero13
+ls
+mkdir prueba
+clear
+cp -r prueba prueba2
+ls
+cp fichero12 fichero13 /prueba
+clear
+ls
+cp fichero12 fichero12 /prueba
+cp fichero12 fichero12 /prueba2
+ls
+cp fichero12 fichero13 prueba
+cp -r prueba prueba55
+ls
+mv fichero12 fichero_moved
+ls
+mv prueba prueba2
+ls
+cd prueba2
+ls
+cd .
+cd ..
+clear
+ls?
+ls
+man ls
+clear
+ls
+cd
+clear
+ls
+mkdir first_dir
+ls
+touch text_file.txt first_dir
+cd first_dir
+ls
+ls -l
+cd ..
+ls
+mv text_file.txt first_dir
+cd first_dir
+ls
+clear
+ls
+cd ..
+cd first_dir
+ls
+chmod g+x,o+w text_file.txt
+ls -l
+mkdir -p sub1 sub2 text_file
+ls
+cp text_file.txt sub1
+ls sub1
+mv text_file.txt text_file.txt.2 sub2
+clear
+ls
+cd ..
+ls
+cd first_dir
+ls
+cd text_file
+ls
+cd ..
+cd sub1
+ls
+mv text_file.txt text_file.txt.2 /home/dsc/first_dir/sub2
+cd..
+ls
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+mv ./first_dir/sub2/text_file.txt text_file.txt.2 ./first_dir/sub2
+cd..
+clear
+ls
+cd first_dir
+ls
+cd ..
+mv ./first_dir/sub2/text_file.txt ./first_dir/sub1
+ls
+clear
+ls first_dir/sub1
+mv ./first_dir/sub2/text_file.txt ./first_dir/sub1/text_file.txt.2
+mv ./first_dir/sub2/text_file.txt text_file.txt.2 ./first_dir/sub1/
+clear
+pwd
+clear
+cd first_dir
+ls
+cd sub2
+ls
+ñs
+cd sub1
+cd ..
+cd sub1
+l
+ls
+clear
+ls
+cd ..
+clear
+cd sub1
+ls
+clear
+cd..
+cd ..
+ls
+cd ..
+ls
+cd first_dir
+ls
+cd sub1
+ls
+cd ..
+clear
+cp -r sub1 sub3
+touch text_file.txt
+mv text_file.txt /sub2/text_file.txt.2
+clear
+ls
+cd ..
+clear
+ls
+rm -r fichero13
+rm -r fichero_moved
+clear
+ls
+rm -r first_dir
+clear
+ls
+mkdir firs_dir
+touch text_file.txt firs_dir
+cd firs_dir
+ls
+cd ..
+ls
+rm -r firs_dir
+clear
+ls
+rm -r text_file.txt
+clear
+ls
+rm -r prueba2
+rm -r prueba55
+clear
+ls
+mkdir first_dir
+touch text_file.txt first_dir
+ls first_dir
+ls
+rm text_file.txt
+clear
+ls
+touch file.txt first_dir
+ls
+cp file.txt first_dir
+ls first_dir
+ls
+rm file.txt
+clear
+ls
+cd first_dir
+ls
+chmod g+x,o+w file.txt
+mkdir sub1 sub2 text_file
+ls
+cp file.txt sub1
+ls sub1
+mv file.txt sub2/tex_file.txt
+ls sub2
+ls
+clear
+cp sub1 sub3
+cp -r sub1 sub3
+ls sub3
+mv sub2/tex_file.txt text_file.txt-backup
+ls sub2
+cd sub2
+ls
+ls -l
+cd ..
+ls
+mv text_file.txt-backup sub2
+cd sub2
+ls
+clear
+cd ..
+clear
+ls
+cd ..
+clear
+ls
+mv first_dir/sub2/text_file.txt-backup ./first_dir
+ls -a
+clear
+ls
+ls -a
+mv first_dir/sub2/text_file.txt-backup ./first_dir
+clear
+ls
+cd first_dir
+ls
+cd sub2
+ls
+ls -a
+cd ..
+clear
+ls
+cp text_file.txt-backup sub2
+cd sub2
+ls
+cd ..
+clear
+ls
+cd ..
+clear
+mv first_dir/sub2/text_file.txt-backup first_dir/sub2/.text_file.txt.backup
+ls first_dir/sub2
+ls
+ls -a
+clear
+ls
+cd first_dir
+ls
+cd sub2
+ls -a
+clear
+rm -r sub2
+cd ..
+clear
+rm -r sub2
+clear
+cd ..
+clear
+history > 11/11/2020
+cat history >2020-11-11
+cat history >2020-11-11.txt
+cat history > 2020-11-11.txt
+clear
+history
+cat history > 2020-11-11.txt
+cat history > 2020.txt
+pwd
+apt-get install git
+apt-get git
+sudo su
+clear
+git push
+ls
+pwd
+mkdir git
+cd git
+ls
+clear
+echo "#shell"
+echo "# shell">> README.md
+ls
+cat README.md
+clear
+cat README.md
+git init
+git config --global user.name
+git config --get user.name
+ls
+git config --global user.name "Cristian E"
+git config --get user.name
+git config --global user.email "skudero24188@gmail.com"
+git add README.md
+git status
+touch kk.txt
+ls
+git status
+rm kk.txt
+ls
+clear
+git status
+git commit -m "first commit adding README.md"
+git branch -M main
+git branch -M master
+git status
+cd ..
+cd git
+git remote add origin https://github.com/hxn241/shell.git
+git push -u origin master
+gedit README.md
+clear
+git add README.md
+git status
+git commit -m "readme edited"
+git push origin master
+man bash
+ls
+clear
+cd .
+ls
+clear
+cd ..
+ls
+cd Data
+ls
+cd opentraveldata
+ls
+less optd_aircraft.csv
+less optd_airlines.csv
+cd ..
+clear
+cd shell
+ls
+less Finn.txt
+./
+cd ./
+cd ..
+less opentraveldata/optd_aircraft.csv
+tree ls
+ll
+ls .l
+ls -l
+ll
+ls -lh
+ll
+ls -lh
+ls -lS
+bash
+exit
+clear
+history
+type ll
+ls -lrth
+cd
+less .zshrc
+which python
+whereis bash
+whereis pytho
+whereis python
+which bash
+echo $PATH
+histori
+history
+gedit .history
+exit
+gedit .history
+echo "Hola mundo"
+ls
+clear
+ll
+clear
+echo "hola mundo" > pp.txt
+tail pp.txt
+echo "hola mundo" >>pp.txt
+head pp.txt
+echo "sobreescribe" > pp.txt
+head pp.txt
+gedit .history
+touch pp2.txt
+ls
+clear
+echo $HISTFILE
+ls
+ls -a
+ls -arS
+ls -aS
+ls
+ls . -S
+ls -l
+ls -la
+ls -la .history
+ls -l $HISTFILE
+ls
+cp .history git/
+cd git
+ls
+ls -la
+clear
+cd ..
+cñear
+ls
+cd git
+ls
+ls -la
+cd .
+cd ..
+cd git
+clear
+git status
+ls -
+ls -a
+ls -la
+git status
+git add .
+git commit
+git commit -m "history"
+git push
+clear
+mkdir folder1
+mkdir folder 2
+mkdir folder2
+cd folder1
+touch hola.txt
+cd ..
+ls
+clear
+rm folder1
+rm -r folder1
+rm -r folder 2
+rm -r folder2
+clear
+ls
+ls -la
+ls -las
+clear
+ls
+cd ..
+ls
+pwd
+clear
+md folder1
+md folder2
+touch folder1/elpepe
+rsync -avz folder1/ folder2
+cd folder2
+ls
+clear
+cd ..
+clear
+cp .history git/history_20201117
