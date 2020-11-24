@@ -1,0 +1,1793 @@
+    1  sudo echo echo
+    2  clear
+    3  su
+    4  sudo su
+    5  clear
+    6  ls
+    7  clear
+    8  echo hola
+    9  echo "Hello world"
+   10  echo Hello ; echo hello
+   11  echo "Hello ; echo hello"
+   12  echo 'hello ; echo hello2'
+   13  echo $SHELL
+   14  echo "$SHELL"
+   15  echo "SHELL"
+   16  echo "$SHELL"
+   17  echo "$shell"
+   18  echo '$SHELL'
+   19  echo `date`
+   20  date
+   21  echo `date`
+   22  echo "$(date)"
+   23  SHELL=HELLO
+   24  ECHO $SHELL
+   25  echo $SHELL
+   26  printnenv
+   27  printenv
+   28  clear
+   29  history
+   30  gedit .history
+   31  whoami
+   32  history
+   33  echo "world \is mine"
+   34  echo "hola hola $SHELL"
+   35  echo "hola hola $(SHELL)"
+   36  echo `hola hola date`
+   37  echo `date`
+   38  echo `echo $date`
+   39  echo $date
+   40  echo "world\nis nice\nand so on"
+   41  clear
+   42  echo 'this is\nanother "\none'
+   43  echo "this is \ndouble"
+   44  single '\nthis is single"\n'
+   45  echo "world \\nis on the same line"
+   46  echo "
+   47  echo "This is \n new line"
+   48  echo "This is /t tabulation?\n"
+   49  echo "This is /t tabulation?"\n"
+   50  echo "this is \t new line"
+   51  echo "This is \\ new line"
+   52  echo this; echo that
+   53  echo this \;echo that
+   54  echo " this is text with " comillas dobles"\n"
+   55  echo "this is text with \"comillas dobles"
+   56  echo "this is dollar sign \$SHELL"
+   57  echo "this is dollar sign $SHELL"
+   58  echo "this is dollar sign \$SHELL"
+   59  echo -e this ; echo that
+   60  echo -e this \; echo that
+   61  echo "this ; echo that"
+   62  cat /proc/cpuinfo
+   63  cat /etc/os-release
+   64  cd Data
+   65  ls
+   66  cd shell
+   67  ls
+   68  cd
+   69  ls
+   70  clear
+   71  cd Data/shell
+   72  cd ..
+   73  cd shell
+   74  cd ../
+   75  cd shell
+   76  clear
+   77  cd ..
+   78  cd
+   79  cd -
+   80  bash
+   81  cd../
+   82  cd -
+   83  exit
+   84  cd shell
+   85  cat Text_example.txt
+   86  cat -n Text_example.txt
+   87  cat -n Text_example.txt Text_example.txt Text_example.txt
+   88  cd
+   89  cat Data/shell/
+   90  cd /home
+   91  clear
+   92  ls
+   93  cd dsc
+   94  ls
+   95  clear
+   96  ls
+   97  clear
+   98  ls
+   99  cd Data
+  100  clear
+  101  pwd
+  102  cd
+  103  cat /home/dsc/Data/shell/Text_example.txt
+  104  cat -n /home/dsc/Data/shell/Text_example.txt
+  105  cat -n /home/dsc/Data/shell/Text_example.txt Data/opentraveldata/                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+  106  ls
+  107  cd Data/challenge
+  108  ls
+  109  cd ..
+  110  ls
+  111  cd 
+  112  cd anaconda3
+  113  clear
+  114  ls
+  115  cd..
+  116  cd ..
+  117  ls anaconda3
+  118  cd anaconda3
+  119  ls
+  120  ls -1
+  121  ls -s
+  122  ls -l
+  123  clear
+  124  ls -s -1
+  125  cd
+  126  ls
+  127  ls -a
+  128  ls help
+  129  ls
+  130  clear
+  131  ls -
+  132  ls -a
+  133  cd
+  134  ls-l
+  135  clear
+  136  ls -l
+  137  ls -la
+  138  ls -l Data
+  139  ls Data
+  140  ls -a
+  141  ls -S
+  142  ls -S -l
+  143  ls -aSl
+  144  ls -aSr
+  145  ls -aSrl
+  146  ls -atrl
+  147  ls
+  148  clear
+  149  pwd
+  150  clear
+  151  ls -al
+  152  touch file00
+  153  ls -l file00
+  154  chmod u+x,g-w,o+w file00
+  155  ls -l file00
+  156  rwx = 101 = 2(2)*1 + 2(1)*0 + 2(0)*1 =5
+  157  chmod 777 file00
+  158  ls -l file00
+  159  chmod 770 file00
+  160  ls -l file00
+  161  chmod g+w file00
+  162  chmod g-w file00
+  163  ñs
+  164  ls
+  165  mkdir my_first_directory
+  166  mkdir directory1 directory2
+  167  ls
+  168  clear
+  169  mkdir my_third_dir/uno
+  170  mkdir -p my_third_dir/uno
+  171  rm file00
+  172  rm my_first_directory
+  173  rm -r my_first_directory
+  174  rm -r directory1
+  175  rm -r directory2
+  176  rm -r my_third_dir
+  177  ls
+  178  touch fichero12
+  179  cp fichero12 fichero12
+  180  cp fichero12 fichero13
+  181  ls
+  182  mkdir prueba
+  183  clear
+  184  cp -r prueba prueba2
+  185  ls
+  186  cp fichero12 fichero13 /prueba
+  187  clear
+  188  ls
+  189  cp fichero12 fichero12 /prueba
+  190  cp fichero12 fichero12 /prueba2
+  191  ls
+  192  cp fichero12 fichero13 prueba
+  193  cp -r prueba prueba55
+  194  ls
+  195  mv fichero12 fichero_moved
+  196  ls
+  197  mv prueba prueba2
+  198  ls
+  199  cd prueba2
+  200  ls
+  201  cd .
+  202  cd ..
+  203  clear
+  204  ls?
+  205  ls
+  206  man ls
+  207  clear
+  208  ls
+  209  cd
+  210  clear
+  211  ls
+  212  mkdir first_dir
+  213  ls
+  214  touch text_file.txt first_dir
+  215  cd first_dir
+  216  ls
+  217  ls -l
+  218  cd ..
+  219  ls
+  220  mv text_file.txt first_dir
+  221  cd first_dir
+  222  ls
+  223  clear
+  224  ls
+  225  cd ..
+  226  cd first_dir
+  227  ls
+  228  chmod g+x,o+w text_file.txt
+  229  ls -l
+  230  mkdir -p sub1 sub2 text_file
+  231  ls
+  232  cp text_file.txt sub1
+  233  ls sub1
+  234  mv text_file.txt text_file.txt.2 sub2
+  235  clear
+  236  ls
+  237  cd ..
+  238  ls
+  239  cd first_dir
+  240  ls
+  241  cd text_file
+  242  ls
+  243  cd ..
+  244  cd sub1
+  245  ls
+  246  mv text_file.txt text_file.txt.2 /home/dsc/first_dir/sub2
+  247  cd..
+  248  ls
+  249  clear
+  250  ls
+  251  cd ..
+  252  ls
+  253  cd ..
+  254  ls
+  255  mv ./first_dir/sub2/text_file.txt text_file.txt.2 ./first_dir/sub2
+  256  cd..
+  257  clear
+  258  ls
+  259  cd first_dir
+  260  ls
+  261  cd ..
+  262  mv ./first_dir/sub2/text_file.txt ./first_dir/sub1
+  263  ls
+  264  clear
+  265  ls first_dir/sub1
+  266  mv ./first_dir/sub2/text_file.txt ./first_dir/sub1/text_file.txt.2
+  267  mv ./first_dir/sub2/text_file.txt text_file.txt.2 ./first_dir/sub1/
+  268  clear
+  269  pwd
+  270  clear
+  271  cd first_dir
+  272  ls
+  273  cd sub2
+  274  ls
+  275  ñs
+  276  cd sub1
+  277  cd ..
+  278  cd sub1
+  279  l
+  280  ls
+  281  clear
+  282  ls
+  283  cd ..
+  284  clear
+  285  cd sub1
+  286  ls
+  287  clear
+  288  cd..
+  289  cd ..
+  290  ls
+  291  cd ..
+  292  ls
+  293  cd first_dir
+  294  ls
+  295  cd sub1
+  296  ls
+  297  cd ..
+  298  clear
+  299  cp -r sub1 sub3
+  300  touch text_file.txt
+  301  mv text_file.txt /sub2/text_file.txt.2
+  302  clear
+  303  ls
+  304  cd ..
+  305  clear
+  306  ls
+  307  rm -r fichero13
+  308  rm -r fichero_moved
+  309  clear
+  310  ls
+  311  rm -r first_dir
+  312  clear
+  313  ls
+  314  mkdir firs_dir
+  315  touch text_file.txt firs_dir
+  316  cd firs_dir
+  317  ls
+  318  cd ..
+  319  ls
+  320  rm -r firs_dir
+  321  clear
+  322  ls
+  323  rm -r text_file.txt
+  324  clear
+  325  ls
+  326  rm -r prueba2
+  327  rm -r prueba55
+  328  clear
+  329  ls
+  330  mkdir first_dir
+  331  touch text_file.txt first_dir
+  332  ls first_dir
+  333  ls
+  334  rm text_file.txt
+  335  clear
+  336  ls
+  337  touch file.txt first_dir
+  338  ls
+  339  cp file.txt first_dir
+  340  ls first_dir
+  341  ls
+  342  rm file.txt
+  343  clear
+  344  ls
+  345  cd first_dir
+  346  ls
+  347  chmod g+x,o+w file.txt
+  348  mkdir sub1 sub2 text_file
+  349  ls
+  350  cp file.txt sub1
+  351  ls sub1
+  352  mv file.txt sub2/tex_file.txt
+  353  ls sub2
+  354  ls
+  355  clear
+  356  cp sub1 sub3
+  357  cp -r sub1 sub3
+  358  ls sub3
+  359  mv sub2/tex_file.txt text_file.txt-backup
+  360  ls sub2
+  361  cd sub2
+  362  ls
+  363  ls -l
+  364  cd ..
+  365  ls
+  366  mv text_file.txt-backup sub2
+  367  cd sub2
+  368  ls
+  369  clear
+  370  cd ..
+  371  clear
+  372  ls
+  373  cd ..
+  374  clear
+  375  ls
+  376  mv first_dir/sub2/text_file.txt-backup ./first_dir
+  377  ls -a
+  378  clear
+  379  ls
+  380  ls -a
+  381  mv first_dir/sub2/text_file.txt-backup ./first_dir
+  382  clear
+  383  ls
+  384  cd first_dir
+  385  ls
+  386  cd sub2
+  387  ls
+  388  ls -a
+  389  cd ..
+  390  clear
+  391  ls
+  392  cp text_file.txt-backup sub2
+  393  cd sub2
+  394  ls
+  395  cd ..
+  396  clear
+  397  ls
+  398  cd ..
+  399  clear
+  400  mv first_dir/sub2/text_file.txt-backup first_dir/sub2/.text_file.txt.backup
+  401  ls first_dir/sub2
+  402  ls
+  403  ls -a
+  404  clear
+  405  ls
+  406  cd first_dir
+  407  ls
+  408  cd sub2
+  409  ls -a
+  410  clear
+  411  rm -r sub2
+  412  cd ..
+  413  clear
+  414  rm -r sub2
+  415  clear
+  416  cd ..
+  417  clear
+  418  history > 11/11/2020
+  419  cat history >2020-11-11
+  420  cat history >2020-11-11.txt
+  421  cat history > 2020-11-11.txt
+  422  clear
+  423  history
+  424  cat history > 2020-11-11.txt
+  425  cat history > 2020.txt
+  426  pwd
+  427  apt-get install git
+  428  apt-get git
+  429  sudo su
+  430  clear
+  431  git push
+  432  ls
+  433  pwd
+  434  mkdir git
+  435  cd git
+  436  ls
+  437  clear
+  438  echo "#shell"
+  439  echo "# shell">> README.md
+  440  ls
+  441  cat README.md
+  442  clear
+  443  cat README.md
+  444  git init
+  445  git config --global user.name
+  446  git config --get user.name
+  447  ls
+  448  git config --global user.name "Cristian E"
+  449  git config --get user.name
+  450  git config --global user.email "skudero24188@gmail.com"
+  451  git add README.md
+  452  git status
+  453  touch kk.txt
+  454  ls
+  455  git status
+  456  rm kk.txt
+  457  ls
+  458  clear
+  459  git status
+  460  git commit -m "first commit adding README.md"
+  461  git branch -M main
+  462  git branch -M master
+  463  git status
+  464  cd ..
+  465  cd git
+  466  git remote add origin https://github.com/hxn241/shell.git
+  467  git push -u origin master
+  468  gedit README.md
+  469  clear
+  470  git add README.md
+  471  git status
+  472  git commit -m "readme edited"
+  473  git push origin master
+  474  man bash
+  475  ls
+  476  clear
+  477  cd .
+  478  ls
+  479  clear
+  480  cd ..
+  481  ls
+  482  cd Data
+  483  ls
+  484  cd opentraveldata
+  485  ls
+  486  less optd_aircraft.csv
+  487  less optd_airlines.csv
+  488  cd ..
+  489  clear
+  490  cd shell
+  491  ls
+  492  less Finn.txt
+  493  ./
+  494  cd ./
+  495  cd ..
+  496  less opentraveldata/optd_aircraft.csv
+  497  tree ls
+  498  ll
+  499  ls .l
+  500  ls -l
+  501  ll
+  502  ls -lh
+  503  ll
+  504  ls -lh
+  505  ls -lS
+  506  bash
+  507  exit
+  508  clear
+  509  history
+  510  type ll
+  511  ls -lrth
+  512  cd
+  513  less .zshrc
+  514  which python
+  515  whereis bash
+  516  whereis pytho
+  517  whereis python
+  518  which bash
+  519  echo $PATH
+  520  histori
+  521  history
+  522  gedit .history
+  523  exit
+  524  gedit .history
+  525  echo "Hola mundo"
+  526  ls
+  527  clear
+  528  ll
+  529  clear
+  530  echo "hola mundo" > pp.txt
+  531  tail pp.txt
+  532  echo "hola mundo" >>pp.txt
+  533  head pp.txt
+  534  echo "sobreescribe" > pp.txt
+  535  head pp.txt
+  536  gedit .history
+  537  touch pp2.txt
+  538  ls
+  539  clear
+  540  echo $HISTFILE
+  541  ls
+  542  ls -a
+  543  ls -arS
+  544  ls -aS
+  545  ls
+  546  ls . -S
+  547  ls -l
+  548  ls -la
+  549  ls -la .history
+  550  ls -l $HISTFILE
+  551  ls
+  552  cp .history git/
+  553  cd git
+  554  ls
+  555  ls -la
+  556  clear
+  557  cd ..
+  558  cñear
+  559  ls
+  560  cd git
+  561  ls
+  562  ls -la
+  563  cd .
+  564  cd ..
+  565  cd git
+  566  clear
+  567  git status
+  568  ls -
+  569  ls -a
+  570  ls -la
+  571  git status
+  572  git add .
+  573  git commit
+  574  git commit -m "history"
+  575  git push
+  576  clear
+  577  mkdir folder1
+  578  mkdir folder 2
+  579  mkdir folder2
+  580  cd folder1
+  581  touch hola.txt
+  582  cd ..
+  583  ls
+  584  clear
+  585  rm folder1
+  586  rm -r folder1
+  587  rm -r folder 2
+  588  rm -r folder2
+  589  clear
+  590  ls
+  591  ls -la
+  592  ls -las
+  593  clear
+  594  ls
+  595  cd ..
+  596  ls
+  597  pwd
+  598  clear
+  599  md folder1
+  600  md folder2
+  601  touch folder1/elpepe
+  602  rsync -avz folder1/ folder2
+  603  cd folder2
+  604  ls
+  605  clear
+  606  cd ..
+  607  clear
+  608  cp .history git/history_20201117
+  609  git status
+  610  cd git
+  611  git status
+  612  git add .
+  613  git commit -m "historydate"
+  614  git push
+  615  ls
+  616  cat .git
+  617  clear
+  618  ls
+  619  ls -a
+  620  cd .git
+  621  ls
+  622  cd ..
+  623  clear
+  624  cd ..
+  625  cd git
+  626  git status
+  627  cd ..
+  628  git clone
+  629  history -i
+  630  history -f
+  631  history -n
+  632  history -i
+  633  pwd
+  634  clear
+  635  cd pwd
+  636  clear
+  637  ls
+  638  cd Data
+  639  clear
+  640  ls
+  641  ls -l
+  642  cd shee
+  643  cd shell
+  644  cls
+  645  clear
+  646  ls -l
+  647  \twc Text_example.txt
+  648  head -n 8 Text_example.txt
+  649  \twc -n Text_example.txt
+  650  wc -w Text_example.txt
+  651  wc -l Text_example.txt
+  652  wc -c Text_example.txt
+  653  echo -n "hola"|wc
+  654  ls
+  655  clear
+  656  cat Text_example.txt| wc
+  657  ls
+  658  wc Text_example.txt
+  659  cat Text_example.txt | wc -l
+  660  wc Text_example.txt
+  661  cd ..
+  662  clear
+  663  ls
+  664  cd opentraveldata
+  665  ls
+  666  tail -c -1k optd_aircraft.csv| wc
+  667  head -c 1k optd_aircraft.csv|wc
+  668  head -c 1K optd_aircraft.csv|wc
+  669  head -c 1k optd_aircraft.csv|wc
+  670  clear
+  671  ls
+  672  clear
+  673  ls -lSa
+  674  ls -lSa -n 1 | > largest_file.txt
+  675  ls -lSa -n 1
+  676  ls -lSa -n
+  677  ls -lSa | wc -1
+  678  ls -lSa | wc -l1
+  679  ls -lSa | wc -l 1
+  680  ls -lSa
+  681  ls -lSa | cat -n 1 >> larges_file.txt
+  682  ls -lSa | cat -n 1 > largest_file.txt
+  683  ls
+  684  clear
+  685  ls
+  686  cat optd_aircraft.csv -n 2
+  687  cat optd_aircraft.csv -n -2
+  688  cat optd_aircraft.csv -n --2
+  689  cat optd_aircraft.csv -n
+  690  cat optd_aircraft.csv -n 1
+  691  cat optd_aircraft.csv -n 8
+  692  clear
+  693  cat -n 2 optd_aircraft.csv
+  694  clear
+  695  ls
+  696  cat largest_file.txt
+  697  cat larges_file.txt
+  698  clear
+  699  cat -n 2 ref_airline_nb_of_flights.csv
+  700  cat -2 ref_airline_nb_of_flights.csv
+  701  cat -n 5 ref_airline_nb_of_flights.csv
+  702  ls
+  703  clear
+  704  ls
+  705  rm -r larges_file.txt
+  706  rm -r largest_file.txt 
+  707  clear
+  708  ls -lSa
+  709  clear
+  710  ls -l
+  711  ls -lS
+  712  ls -lS | less -1
+  713  ls -lS | cat -1
+  714  ls -lS | cat -m
+  715  ls -lS | cat -n
+  716  ls -lS | head -1
+  717  ls -lS | head -2
+  718  cat --5 optd_aircraft.csv
+  719  cat -5 optd_aircraft.csv
+  720  ls -lS | head -2
+  721  ls -lS | head -2 >>largest_file.txt
+  722  ls
+  723  cat largest_file.txt
+  724  clear
+  725  ls
+  726  cd ..
+  727  ls
+  728  whereis Finn.txt
+  729  ls
+  730  clear
+  731  cd opentraveldata
+  732  clear
+  733  ls -lS
+  734  cd ..
+  735  ls
+  736  cd ..
+  737  ls
+  738  cd Data
+  739  ls
+  740  cd airline_tickets
+  741  ls
+  742  cd ..
+  743  clear
+  744  ls
+  745  cd shell
+  746  ls
+  747  wc -w Finn.txt
+  748  clar
+  749  clear
+  750  head -3 Text_example.txt
+  751  cat -m | head -5 Text_example.txt
+  752  ls
+  753  cat -n Text_example.txt|head -n 3
+  754  cd ..
+  755  clear
+  756  cd opentraveldata
+  757  ls -ls
+  758  ls -lSr
+  759  clear
+  760  ls
+  761  cd ..
+  762  clear
+  763  cd shell
+  764  ls
+  765  clear
+  766  cat -n Text_example.txt >> Text_example_cat
+  767  cat Text_example_cat
+  768  clear
+  769  cd ..
+  770  clear
+  771  gedit .history
+  772  clear
+  773  cls
+  774  ls
+  775  cd Data/shell
+  776  clear
+  777  new_file <cat Text_example.txt Text_example.txt
+  778  cat Text_example.txt Text_example.txt >> new_file.txt
+  779  cat new_file.txt
+  780  clear
+  781  cd
+  782  clear
+  783  ls+
+  784  ls
+  785  clear
+  786  head -5 Finn.txt | wc -w
+  787  clear
+  788  ls
+  789  cat /etc/os-release
+  790  history -i| grep rsync
+  791  history| grep rsync
+  792  cat $/.history | grep rsync
+  793  cat ~/.history | grep rsync
+  794  cat ~/.history | grep release
+  795  echo "date"
+  796  echo 'date'
+  797  echo $date
+  798  echo "$date"
+  799  echo '$date'
+  800  echo '$(date)'
+  801  echo $(date)
+  802  touch filedate
+  803  vim fildate
+  804  gedit filedate
+  805  head filedate
+  806  gedit filedate
+  807  cat filedate
+  808  echo "this file is created by kshcool on $(date)\n"
+  809  gedit filedate
+  810  echo "this file is created by kshcool on $(date)\n"
+  811  echo "this file is created by kshcool on $(date)" >>filedate
+  812  clear
+  813  cat filedate
+  814  echo filedate
+  815  filedate
+  816  gedit filedate
+  817  echo filedate
+  818  echo "filedate"
+  819  echo 'filedate'
+  820  cat ~/.history | grep cp
+  821  cp .history git/history_20201117
+  822  cd git
+  823  clear
+  824  git status
+  825  git add .
+  826  git commit -m "new file"
+  827  git push
+  828  clear
+  829  ls
+  830  cd ..
+  831  ls
+  832  ./ filedate
+  833  ./filedate
+  834  gedit filedate
+  835  ./first_dir
+  836  sudo su
+  837  cd ..
+  838  clear
+  839  ls
+  840  cd dsc
+  841  ls
+  842  clear
+  843  ls
+  844  filedate.sh
+  845  .
+  846  ./filedate.sh
+  847  echo "this file is created by kshcool on $(date)" >>filedate
+  848  echo "this file is created by kshcool on $(date)\n"
+  849  clear
+  850  ls
+  851  cat filedate
+  852  gedit filedate
+  853  CAT FILEDATE
+  854  cat filedate
+  855  gedit filedate
+  856  cat filedate
+  857  $user
+  858  echo $user
+  859  echo $USER
+  860  man date
+  861  date
+  862  echo <filedate
+  863  gedit filedate
+  864  echo <filedate
+  865  echo filedate
+  866  ~/.history | tail -20
+  867  ~/.history | tail
+  868  clear
+  869  sudo su
+  870  clear
+  871  pwd
+  872  ls
+  873  tail -20 .history
+  874  cd Data
+  875  cd shell
+  876  ls
+  877  clear
+  878  man cat
+  879  clear
+  880  ls
+  881  cat Text_example
+  882  cat Text_example.txt
+  883  tail -n 1 Text_example.txt
+  884  tail -n +2 Text_example.txt
+  885  tail -n +1 Text_example.txt
+  886  tail -n 2 Text_example.txt
+  887  tail -n +3 Text_example.txt
+  888  tail -n +1 Text_example.txt
+  889  tail -n Text_example.txt
+  890  tail -n +1 Text_example.txt
+  891  cat Text_example.txt
+  892  tail -n +3 Text_example.txt| head -n +3
+  893  tail -n +3 Text_example.txt| head -n +2
+  894  tail -n +3 Text_example.txt| head -n 
+  895  tail -n +3 Text_example.txt| head -n 1
+  896  tail -n +3 Text_example.txt
+  897  head -n 3 Text_example.txt
+  898  head -n -3 Text_example.txt
+  899  head -n +3 Text_example.txt
+  900  head -3 Text_example.txt
+  901  head 3 Text_example.txt
+  902  head  +4  Text_example.txt
+  903  head  -n +4  Text_example.txt
+  904  head  -n   Text_example.txt
+  905  head  -n +2   Text_example.txt
+  906  wc -l Text_example.txt
+  907  head  -n +4   Text_example.txt
+  908  head  -n +4  Text_example.txt | tail -n +2
+  909  head  -n +4  Text_example.txt | tail -n +3
+  910  head  -n +4  Text_example.txt | tail -n +3 >> head-2tail-3
+  911  clear
+  912  ls
+  913  clear
+  914  ls
+  915  cd ..
+  916  cd git
+  917  cd ..
+  918  cd git
+  919  clear
+  920  cp ~/.history history_20201117
+  921  git status
+  922  git add .
+  923  git commit -m "20201117"
+  924  git push
+  925  clear
+  926  echo `home`
+  927  echo `date`
+  928  echo date
+  929  echo $date
+  930  echo $(date)
+  931  cd ..
+  932  clear
+  933  echo "hola\nmundo"
+  934  echo 'echo "hola\nmundo"'
+  935  echo 'echo "hola\nmundo"' > holamundo.sh
+  936  ls
+  937  ls -lrth |tail 
+  938  clear
+  939  gedit holamundo.sh
+  940  clear
+  941  ./holamundo.sh
+  942  clear
+  943  bash holamundo.sh
+  944  whereis bash
+  945  which bash
+  946  ls -lrth |tail -n -1
+  947  chmod u+x,g+x,o+x
+  948  chmod u+x holamundo.sh
+  949  ./holamundo.sh
+  950  chmod +x holamundo.sh
+  951  gedit holamundo.sh
+  952  vim holamundo.sh
+  953  gedit holamundo.sh
+  954  ls
+  955  clear
+  956  cd git
+  957  ls
+  958  la
+  959  ls
+  960  cd ..
+  961  clear
+  962  ls
+  963  cd D
+  964  cd Data
+  965  ls
+  966  clear
+  967  cd opentraveldata
+  968  ls
+  969  cd ..
+  970  ls
+  971  cd shell
+  972  clear
+  973  ls
+  974  cd ..
+  975  cd opentraveldata/
+  976  clear
+  977  ls -ls | tail -2
+  978  ls -ls | tail -1
+  979  ls -lS | tail -1
+  980  ls -lsR | tail -1
+  981  ls -lsR | tail -2
+  982  ls -lsR | tail -1
+  983  clear
+  984  ls
+  985  ls -l
+  986  ls -ls | tail -1
+  987  ls -ls | tail -2
+  988  ls -lS | tail -1
+  989  ls -lS | tail -2
+  990  man ls
+  991  ls -lSr |tail -n 1
+  992  clear
+  993  ls
+  994  clear
+  995  cd ..
+  996  clear
+  997  mkdir fantasticos
+  998  clear
+  999  ls
+ 1000  cd fantasticos
+ 1001  clear
+ 1002  git init
+ 1003  git add .
+ 1004  git commin -m 'prueba'
+ 1005  git remore add origin https://github.com/hxn241/Fantasticos.git
+ 1006  git remote add origin https://github.com/hxn241/Fantasticos.git
+ 1007  git push -u origin master
+ 1008  git status
+ 1009  clear
+ 1010  cd ..
+ 1011  ls
+ 1012  ñs
+ 1013  clear
+ 1014  ls
+ 1015  cd ..
+ 1016  clear
+ 1017  cd ..
+ 1018  clear
+ 1019  ls
+ 1020  cd home
+ 1021  cd dsc
+ 1022  clear
+ 1023  ls
+ 1024  cd fantasticos
+ 1025  cd ..
+ 1026  cd fantasticos
+ 1027  clear
+ 1028  ls
+ 1029  git status
+ 1030  cd ..
+ 1031  clear
+ 1032  ls
+ 1033  cd fantasticos
+ 1034  touch pruebatxt
+ 1035  ls
+ 1036  clear
+ 1037  git status
+ 1038  git add .
+ 1039  git commit -m 'prueba'
+ 1040  git push
+ 1041  add add README.md
+ 1042  git commit -m "first commit"
+ 1043  ls
+ 1044  touch README.md
+ 1045  ls
+ 1046  clear
+ 1047  git add .
+ 1048  git commit -m "first commit"
+ 1049  git branch -M main
+ 1050  git push -u origin main
+ 1051  gedit README.md
+ 1052  git add .
+ 1053  git commit -m "readmedile"
+ 1054  git commit -m "readmefile"
+ 1055  git push -u origin main
+ 1056  ls
+ 1057  clear
+ 1058  cd ..
+ 1059  touch 002.sh
+ 1060  gedit 002.sh
+ 1061  cd ..
+ 1062  clear
+ 1063  ls
+ 1064  cd dsc
+ 1065  ls
+ 1066  gedit 002.sh
+ 1067  clear
+ 1068  ls
+ 1069  ./002.sh
+ 1070  chmod +x 002.sh
+ 1071  ./002.sh
+ 1072  ls
+ 1073  ls 001.out
+ 1074  gedit 001.out
+ 1075  rm -r 001.out
+ 1076  clear
+ 1077  ls
+ 1078  clear
+ 1079  ls
+ 1080  cd Data
+ 1081  ls
+ 1082  cd opentraveldata
+ 1083  touch 001.sh
+ 1084  gedit 001.sh
+ 1085  clear
+ 1086  ls
+ 1087  chmod +x 001.sh
+ 1088  ./001.sh
+ 1089  ls
+ 1090  gedit 001.out
+ 1091  clear
+ 1092  ls
+ 1093  ./001.sh
+ 1094  gedit 001.out
+ 1095  gedit 001.sh
+ 1096  ./001.sh
+ 1097  gedit 001.out
+ 1098  gedit 001.sh
+ 1099  ./001.sh
+ 1100  gedit 001.out
+ 1101  ls
+ 1102  gedit 001.OUT
+ 1103  clear
+ 1104  cd ..
+ 1105  cd fantasticos
+ 1106  ls
+ 1107  cd ..
+ 1108  ls
+ 1109  cd fantasticos
+ 1110  ls
+ 1111  cd ..
+ 1112  cd Data
+ 1113  cd ..
+ 1114  cd op
+ 1115  cd shell
+ 1116  ls
+ 1117  cd Data
+ 1118  ls
+ 1119  cd opentraveldata
+ 1120  ls
+ 1121  cp 001.OUT ~/fantasticos
+ 1122  cp 001.sh  ~/fantasticos
+ 1123  cd ..
+ 1124  cd fantasticos
+ 1125  clear
+ 1126  ls
+ 1127  git status
+ 1128  git add .
+ 1129  git commit -m "first exercise"
+ 1130  git push
+ 1131  git push -u origin
+ 1132  git push -u origin main
+ 1133  clear
+ 1134  ls
+ 1135  git status
+ 1136  git push -u origin main
+ 1137  git pull
+ 1138  git push -u origin main
+ 1139  ./history | grep branch
+ 1140  clear
+ 1141  cd ..
+ 1142  pwd
+ 1143  touch 002.sh
+ 1144  gedit 002.sh
+ 1145  cd Data
+ 1146  ls
+ 1147  clear
+ 1148  cd shell
+ 1149  clear
+ 1150  cd ..
+ 1151  gedit 002.sh
+ 1152  clear
+ 1153  ls
+ 1154  chmod +x 002.sh
+ 1155  clear
+ 1156  ./002.sh
+ 1157  gedit 002.sh
+ 1158  ./002.sh
+ 1159  ls
+ 1160  gedit 002.OUT
+ 1161  cp ~/002.OUT fantasticos
+ 1162  cp ~/002.sh fantasticos
+ 1163  cd fantasticos
+ 1164  clear
+ 1165  ls
+ 1166  git status
+ 1167  git add .
+ 1168  git commit -m "secondexercise"
+ 1169  git push
+ 1170  clear
+ 1171  touch user_date
+ 1172  gedit user_date
+ 1173  ls
+ 1174  mv user_date user_date.sh
+ 1175  clear
+ 1176  s
+ 1177  ls
+ 1178  chmod +x user_date.sh
+ 1179  ./user_date.sh
+ 1180  gedit user_date.sh
+ 1181  ./user_date.sh
+ 1182  gedit user_date.sh
+ 1183  clear
+ 1184  ls
+ 1185  git status
+ 1186  ./user_date.sh
+ 1187  git pull
+ 1188  clear
+ 1189  gedit user_date.sh
+ 1190  ./user_date.sh
+ 1191  clear
+ 1192  ls
+ 1193  git status
+ 1194  gedit user_date.OUT
+ 1195  git status
+ 1196  git add .
+ 1197  git commit -m "exercise5"
+ 1198  git push
+ 1199  clear
+ 1200  touch age.sh
+ 1201  gedit age.sh
+ 1202  clear
+ 1203  ./age.sh
+ 1204  chmod +x age.sh
+ 1205  clear
+ 1206  ./age.sh
+ 1207  gedit age.sh
+ 1208  ./age.sh
+ 1209  gedit age.sh
+ 1210  ./age.sh
+ 1211  clear
+ 1212  git status
+ 1213  git add
+ 1214  clear
+ 1215  ls
+ 1216  gedit 004.sh
+ 1217  chmod +x 004.sh
+ 1218  clear
+ 1219  ./004
+ 1220  cd ..
+ 1221  clear
+ 1222  ls
+ 1223  cd Data
+ 1224  ls
+ 1225  cd shell
+ 1226  ls
+ 1227  cd ~/fantasticos
+ 1228  clear
+ 1229  gedit 004.sh
+ 1230  cat -n ~/Data/shell/Text_example.txt
+ 1231  gedit 004.sh
+ 1232  clear
+ 1233  ./004.sh
+ 1234  clear
+ 1235  less 004.OUT
+ 1236  less 004.sh
+ 1237  clear
+ 1238  ls
+ 1239  git status
+ 1240  git pull
+ 1241  git add .
+ 1242  git commit -m "exercise 4 and 6"
+ 1243  git push
+ 1244  git pull
+ 1245  gedit age.sh
+ 1246  ./age.sh
+ 1247  clear
+ 1248  ls
+ 1249  clear
+ 1250  ls
+ 1251  less 004.OUT
+ 1252  mv age.sh 006c.sh
+ 1253  clear
+ 1254  ls
+ 1255  rm 006.OUT
+ 1256  clear
+ 1257  gedit 006c.sh
+ 1258  cleaer
+ 1259  clear
+ 1260  ls
+ 1261  git status
+ 1262  git pull
+ 1263  clear
+ 1264  git status
+ 1265  clear
+ 1266  ls
+ 1267  git status
+ 1268  clear
+ 1269  cd ..
+ 1270  ls
+ 1271  cd git
+ 1272  cd ..
+ 1273  cd first_dir
+ 1274  cd ..
+ 1275  clear
+ 1276  ls
+ 1277  ~/.history | grep echo
+ 1278  clear
+ 1279  ls
+ 1280  clear
+ 1281  ~/.history|grep "echo"
+ 1282  ~/.history|grep echo
+ 1283  sudo su
+ 1284  clear
+ 1285  ls -a
+ 1286  ~/.history | grep rsync
+ 1287  clear
+ 1288  gedit .history
+ 1289  ls
+ 1290  clear
+ 1291  cp .history ./Data/historylatest
+ 1292  cd Data
+ 1293  ls
+ 1294  ./historylatest | grep rsync
+ 1295  ls
+ 1296  clear
+ 1297  cd opentraveldata
+ 1298  ls
+ 1299  clear
+ 1300  ls
+ 1301  ./optd_aircraft.csv|grep air
+ 1302  clear
+ 1303  restart
+ 1304  clear
+ 1305  exit
+ 1306   ~/.history|grep rsync
+ 1307  $HISTFILE
+ 1308  ECHO $HISTFILE
+ 1309  echo $HISTFILE
+ 1310  su
+ 1311  sudo su
+ 1312  ~/.history | grep rsync
+ 1313  ls
+ 1314  clear
+ 1315  cd git
+ 1316  clear
+ 1317  git branch test
+ 1318  git status
+ 1319  git checkout test
+ 1320  touch test_hacker.sh
+ 1321  clear
+ 1322  gedit test_hacker.sh
+ 1323  git add .
+ 1324  git status
+ 1325  git add .
+ 1326  git commit -m "hackersh"
+ 1327  git push
+ 1328  git push -u
+ 1329  git push -u origin test
+ 1330  git add .
+ 1331  git commit -m "prueba"
+ 1332  git push
+ 1333  git show-branch
+ 1334  git checkout test
+ 1335  git push -u test
+ 1336  git branch test
+ 1337  git checkout test
+ 1338  clear
+ 1339  git status
+ 1340  git checkout main
+ 1341  git checkout master
+ 1342  git branch test
+ 1343  git checkout test
+ 1344  git status
+ 1345  git add .
+ 1346  git commmit -m "prueba2"
+ 1347  git push -u master
+ 1348  git push -u main
+ 1349  clear
+ 1350  ls
+ 1351  cd ..
+ 1352  clear
+ 1353  cd fantasticos
+ 1354  ls
+ 1355  git branch test
+ 1356  clear
+ 1357  git tatus
+ 1358  git status
+ 1359  git checkout test
+ 1360  clear
+ 1361  git pull
+ 1362  ls
+ 1363  touch test_hacker.sh
+ 1364  gedit test_hacker.sh
+ 1365  cd ~/
+ 1366  gedit test_hacker.sh
+ 1367  cd fantasticos
+ 1368  clear
+ 1369  git pull
+ 1370  git status
+ 1371  ls
+ 1372  git pull
+ 1373  git pull -u test
+ 1374  ls
+ 1375  git pull -u origin test
+ 1376  git pull test
+ 1377  git pull
+ 1378  git pull -u origin /test
+ 1379  ls
+ 1380  git pull
+ 1381  git chekout test
+ 1382  git pull origin test
+ 1383  ls
+ 1384  gedit test_hacker.sh
+ 1385  git add .
+ 1386  git commit -m "hackersh"
+ 1387  git push origin test
+ 1388  gedit test_hacker.sh
+ 1389  git status
+ 1390  git ad test_hacker.sh
+ 1391  git commit -m "test_hacker_rev01"
+ 1392  git push origin test
+ 1393  git status
+ 1394  git add .
+ 1395  git commit -m "modif_test_h"
+ 1396  git push origin test
+ 1397  gedit test_hacker.sh
+ 1398  clear
+ 1399  git pull origin test
+ 1400  las
+ 1401  ls
+ 1402  gedit test_hacker.sh
+ 1403  nano test_hacker.sh
+ 1404  git pull origin test
+ 1405  git status
+ 1406  gedit test_hacker.sh
+ 1407  man basename
+ 1408  basename ~/Data/airline_tickets/coupon150720.csv
+ 1409  gedit test_hacker.sh
+ 1410  chmod +x test_hacker.sh
+ 1411  ./test_hacker.sh
+ 1412  gedit test_hacker.sh
+ 1413  touch 1
+ 1414  touch 2
+ 1415  diff 1 2
+ 1416  diff 1 2 > b
+ 1417  less b
+ 1418  gedit test_hacker.sh
+ 1419  clear
+ 1420  ./test_hacker.sh
+ 1421  gedit test_hacker.sh
+ 1422  ./test_hacker.sh
+ 1423  gedit test_hacker.sh
+ 1424  ./test_hacker.sh
+ 1425  nano test_hacker.sh
+ 1426  ./test_hacker.sh
+ 1427  nano test_hacker.sh
+ 1428  gedit test_hacker.sh
+ 1429  nano test_hacker.sh
+ 1430  ./test_hacker.sh
+ 1431  gedit test_hacker.sh
+ 1432  ./test_hacker.sh
+ 1433  gedit test_hacker.sh
+ 1434  ./test_hacker.sh
+ 1435  gedit test_hacker.sh
+ 1436  ./test_hacker.sh
+ 1437  gedit test_hacker.sh
+ 1438  ./test_hacker.sh
+ 1439  gedit test_hacker.sh
+ 1440  ./test_hacker.sh
+ 1441  gedit test_hacker.sh
+ 1442  ./test_hacker.sh
+ 1443  cd ..
+ 1444  clear
+ 1445  ls
+ 1446  cd ref_repo
+ 1447  ls
+ 1448  cd ..
+ 1449  cd fantasticos
+ 1450  gedit test_hacker.sh
+ 1451  cd fantasticos
+ 1452  ./test_hacker.sh
+ 1453  cd ..
+ 1454  ls
+ 1455  cd fantasticos
+ 1456  ls
+ 1457  ls -l
+ 1458  mv user_date.OUT 005.OUT
+ 1459  LS
+ 1460  CLEAR
+ 1461  clear
+ 1462  ./test_hacker.sh
+ 1463  mv test_hacker.sh test_h_versiondummies
+ 1464  mv test_h_versiondummies.sh
+ 1465  mv test_h_versiondummies test_ver_dummies.sh
+ 1466  clear
+ 1467  ls
+ 1468  gedit test_ver_dummies.sh
+ 1469  ./test_ver_dummies.sh
+ 1470  clear
+ 1471  gedit test_ver_dummies.sh
+ 1472  ./test_ver_dummies.sh
+ 1473  gedit test_ver_dummies.sh
+ 1474  ./test_ver_dummies.sh
+ 1475  gedit test_ver_dummies.sh
+ 1476  mv test_ver_dummies.sh test_dummies_cristian.sh
+ 1477  clear
+ 1478  ls
+ 1479  git status
+ 1480  rm 1
+ 1481  rm 2
+ 1482  rm b
+ 1483  git add .
+ 1484  git commit -m "ultimoarchivo"
+ 1485  git push origin test
+ 1486  git add .
+ 1487  git commit -m "ultimoarchivo"
+ 1488  git push origin test
+ 1489  git push
+ 1490  git push origin test
+ 1491  ls
+ 1492  cd ..
+ 1493  ls
+ 1494  cd fantasticos/clear
+ 1495  cd fan
+ 1496  cd fantasticos
+ 1497  git branch test
+ 1498  git checkout test
+ 1499  git add .
+ 1500  git commit -m "finalscriptcristian"
+ 1501  git push test
+ 1502  git push
+ 1503  git push origin tst
+ 1504  git push origin test
+ 1505  git pull
+ 1506  git pull origin test
+ 1507  cd ..
+ 1508  ls
+ 1509  cd fantasticos
+ 1510  clear
+ 1511  git status
+ 1512  clear
+ 1513  cd ..
+ 1514  git chekout main
+ 1515  cd fantasticos
+ 1516  git checkout main
+ 1517  git checkout master
+ 1518  ls
+ 1519  exit
+ 1520  ls
+ 1521  cd ref_repo
+ 1522  ls
+ 1523  cd campechano
+ 1524  cd ..
+ 1525  cd git
+ 1526  cd ..
+ 1527  cd fantasticos
+ 1528  ls
+ 1529  ./test_hacker.sh
+ 1530  ./test_dummies_cristian.sh
+ 1531  gedit test_dummies_cristian.sh
+ 1532  echo hola /n adios
+ 1533  echo "hola /n adios"
+ 1534  echo "hola" /n" adios"
+ 1535  echo "hola \n adios"
+ 1536  ./test_dummies_cristian.sh
+ 1537  gedit test_dummies_cristian.sh
+ 1538  echo "hola \nadios"
+ 1539  ./test_dummies_cristian.sh
+ 1540  gedit test_dummies_cristian.sh
+ 1541  cd ..
+ 1542  ls
+ 1543  cd fantasticos
+ 1544  ls
+ 1545  gedit test_hacker.sh
+ 1546  cd ..
+ 1547  cd ref_repo
+ 1548  ls
+ 1549  cd campechano
+ 1550  ls
+ 1551  cd ..
+ 1552  cd fantasticos
+ 1553  ./test_dummies_cristian.sh
+ 1554  gedit test_dummies_cristian.sh
+ 1555  ./test_dummies_cristian.sh
+ 1556  cd ..
+ 1557  ls
+ 1558  cd diff
+ 1559  cd fantasticos
+ 1560  ls
+ 1561  gedit test_dummies_cristian.sh
+ 1562  ./test_dummies_cristian.sh
+ 1563  gedit test_dummies_cristian.sh
+ 1564  ./test_dummies_cristian.sh
+ 1565  gedit test_dummies_cristian.sh
+ 1566  ./test_dummies_cristian.sh
+ 1567  cd ..
+ 1568  cd diff
+ 1569  ls
+ 1570  less diferencias.txt
+ 1571  cd ..
+ 1572  cd fantasticos
+ 1573  ls
+ 1574  mv test_dummies_cristian.sh test_hacker_cristian.sh
+ 1575  clear
+ 1576  ls
+ 1577  find ~/ -f *out
+ 1578  find ~/ -"*.out"
+ 1579  find ~/ .out
+ 1580  find ~/ "*.out"
+ 1581  find . -name "*.out"
+ 1582  find .. -name "*.out"
+ 1583  cd ..
+ 1584  cd fantasticos
+ 1585  git checkout master
+ 1586  git checkout main
+ 1587  cd ..
+ 1588  git status
+ 1589  cd fantasticos
+ 1590  git status
+ 1591  clear
+ 1592  git rm test_hacker.sh
+ 1593  ls
+ 1594  clear
+ 1595  ls
+ 1596  cd ..
+ 1597  touch prueba.sh
+ 1598  gedit prueba.sh
+ 1599  clear
+ 1600  ls
+ 1601  gedit prueba.sh
+ 1602  ./prueba.sh
+ 1603  chmod +rwx prueba.sh
+ 1604  ./prueba.sh
+ 1605  gedit prueba.sh
+ 1606  ./prueba.sh
+ 1607  gedit prueba.sh
+ 1608  cd ref_repo
+ 1609  cd campechano
+ 1610  ls
+ 1611  cd ..
+ 1612  gedit prueba.sh
+ 1613  ./prueba.sh
+ 1614  gedit prueba.sh
+ 1615  ./prueba.sh
+ 1616  gedit prueba.sh
+ 1617  ./prueba.sh
+ 1618  gedit prueba.sh
+ 1619  ./prueba.sh
+ 1620  gedit prueba.sh
+ 1621  cd fantasticos
+ 1622  ls
+ 1623  cd ..
+ 1624  gedit prueba.sh
+ 1625  ./prueba.sh
+ 1626  gedit prueba.sh
+ 1627  ./prueba.sh
+ 1628  gedit prueba.sh
+ 1629  ./prueba.sh
+ 1630  gedit prueba.sh
+ 1631  ./prueba.sh
+ 1632  gedit prueba.sh
+ 1633  ./prueba.sh
+ 1634  gedit prueba.sh
+ 1635  ./prueba.sh
+ 1636  gedit prueba.sh
+ 1637  ./prueba.sh
+ 1638  gedit prueba.sh
+ 1639  ./prueba.sh
+ 1640  gedit prueba.sh
+ 1641  ./prueba.sh
+ 1642  gedit prueba.sh
+ 1643  ./prueba.sh
+ 1644  gedit prueba.sh
+ 1645  ./prueba.sh
+ 1646  gedit prueba.sh
+ 1647  ./prueba.sh
+ 1648  gedit prueba.sh
+ 1649  ./prueba.sh
+ 1650  gedit prueba.sh
+ 1651  ./prueba.sh
+ 1652  gedit prueba.sh
+ 1653  ./prueba.sh
+ 1654  gedit prueba.sh
+ 1655  ./prueba.sh
+ 1656  exit
+ 1657  conda
+ 1658  python
+ 1659  Conda
+ 1660  Anaconda
+ 1661  conda
+ 1662  Python3
+ 1663  Python 3
+ 1664  Python
+ 1665  clear
+ 1666  python 3
+ 1667  python3
+ 1668  python
+ 1669  python3
+ 1670  clear
+ 1671   conda
+ 1672  python
+ 1673  conda
+ 1674  python
+ 1675  pythonn
+ 1676  python
+ 1677  conda env list
+ 1678  python -h
+ 1679  python --h
+ 1680  python -c "a=2+2; print('hello world'); print(a)"
+ 1681  nano prueba.py
+ 1682  python -c prueba.py
+ 1683  ls
+ 1684  python prueba.py
+ 1685  ls
+ 1686  cd Downloads
+ 1687  ls
+ 1688  cd IntroPython
+ 1689  ls
+ 1690  clear
+ 1691  ls
+ 1692  cd ..
+ 1693  clear
+ 1694  ls
+ 1695  cd ..
+ 1696  clear
+ 1697  sl
+ 1698  md Intropython
+ 1699  cd dow
+ 1700  cd Downloads/
+ 1701  ñs
+ 1702  ls
+ 1703  mv dropbox_2020.03.04_amd64.deb IntroPython IntroPythonEjercicios IntroPythonEjercicios.zip IntroPython.pdf IntroPython.zip ~/Intropython
+ 1704  ls
+ 1705  cd ..
+ 1706  cd Intropython
+ 1707  ls
+ 1708  clear
+ 1709  cd down
+ 1710  cd ..
+ 1711  cd Downloads
+ 1712  ls
+ 1713  cd ..
+ 1714  ls
+ 1715  cd Intropython
+ 1716  clear
+ 1717  ls
+ 1718  cd IntroPython
+ 1719  ls
+ 1720  python first_script.py
+ 1721  less first_script.py
+ 1722  apt-get install dropbox
+ 1723  sudo apt-get isntall dropbox
+ 1724  sudo apt-get install dropbox
+ 1725  Dropbox
+ 1726  ls
+ 1727  dropbox -h
+ 1728  ls
+ 1729  cd ..
+ 1730  cd Intropython
+ 1731  cd IntroPython
+ 1732  ls
+ 1733  clear
+ 1734  python-h
+ 1735  python -h
+ 1736  ipython
+ 1737  clear
+ 1738  ls
+ 1739  conda install jupyter
+ 1740  jupyter+
+ 1741  jupyter
+ 1742  jupyter -h
+ 1743  jupyter
+ 1744  jupyter notebook
+ 1745  cd ..
+ 1746  ls
+ 1747  jupyter-lab -h
+ 1748  jupyter-lab --help
+ 1749  conda install jupyterlab
+ 1750  conda install jupyter-lab
+ 1751  jupyter-lab
+ 1752  conda install jupyterlab
+ 1753  jupyterlab
+ 1754  cd IntroPython
+ 1755  jupyterlab
+ 1756  jupiter-lab
+ 1757  jupiterlab
+ 1758  jupyter-lab
+ 1759  conda install jupyterlab
+ 1760  sudo su
+ 1761  conda install jupyter-lab
+ 1762  conda install jupyterlab
+ 1763  pip install jupyter-lab
+ 1764  conda install -c conda-forge jupyterlab
+ 1765  jupyter notebook --version
+ 1766  apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+ 1767  apt-get install conda
+ 1768  sudo apt-get install conda
+ 1769  conda install jupyterlab
+ 1770  conda install jupyter-lab
+ 1771  sudo apt-get install conda
+ 1772  sudo apt-get install anaconda
+ 1773  jupyter-lab
+ 1774  jupyterlab
+ 1775  sudo jupyterlab
+ 1776  sudo jupyter-lab
+ 1777  cd ~/
+ 1778  cd Do
+ 1779  cd Downloads
+ 1780  clear
+ 1781  ls
+ 1782  ./Anaconda3-2020.11-Linux-x86_64.sh
+ 1783  sudo su
+ 1784  jupyterlab
+ 1785  jupyter-lab
+ 1786  jupyter-lab -h
+ 1787  jupyter-lab
+ 1788  sudo du
+ 1789  jupyter-lab
+ 1790  sudo su
+ 1791  jupyter-lab
+ 1792  sudo jupyter-lab
+ 1793  --allow-root jupyter-lab
