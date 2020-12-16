@@ -1,0 +1,542 @@
+    1  jupyter/lab
+    2  jupyter-lab
+    3  apt-get install git
+    4  sudo apt-get install git
+    5  git status
+    6  cd git
+    7  clear
+    8  git status
+    9  clear
+   10  cd ..
+   11  cd fantasticos
+   12  ls
+   13  cp 001.OUT 001.sh 002.OUT 002.sh 003.OUT 003.sh 004.OUT 004.sh 005.OUT 006c.sh 006.OUT 006.sh pruebatxt READ.ME README.md \#test_hacker_cristian.sh\# test_hacker_cristian.sh tips.md user_date.sh ../anaconda3/git
+   14  cp 001.OUT 001.sh 002.OUT 002.sh 003.OUT 003.sh 004.OUT 004.sh 005.OUT 006c.sh 006.OUT 006.sh pruebatxt READ.ME README.md \#test_hacker_cristian.sh\# test_hacker_cristian.sh tips.md user_date.sh ../git
+   15  cd ..
+   16  cd git
+   17  ls
+   18  git status
+   19  git add .
+   20  git push
+   21  git status
+   22  cd ..
+   23  cd git
+   24  ls
+   25  mkdir workgroup3
+   26  ls
+   27  mv 001.OUT 002.OUT 003.OUT 004.OUT 005.OUT 006.OUT 001.sh 002.sh 003.sh 004.sh 006c.sh 006.sh test_hacker_cristian.sh test_hacker.sh user_date.sh tips.md ~/git/workgroup3
+   28  ls
+   29  clear
+   30  git status
+   31  git add .
+   32  git commit -m "test"
+   33  git push
+   34  ls
+   35  git status
+   36  git config global user.mail "skudero24188@gmail.com\n"
+   37  git config global user.mail "skudero24188@gmail.com"
+   38  git-- config global user.mail "skudero24188@gmail.com"
+   39  git --config global user.mail "skudero24188@gmail.com"
+   40  git config --global user.mail "skudero24188@gmail.com"
+   41  git config --global user.name "hxn241"
+   42  git status
+   43  git add .
+   44  git commit -m ""
+   45  git config --global user.email "skudero24188@gmail.com"
+   46  git config --global user.name "hxn241"
+   47  git commit -m "test"
+   48  git push origin main
+   49  git push origin master
+   50  push git
+   51  git push
+   52  ls
+   53  cd ..
+   54  ls
+   55  cd git
+   56  sl
+   57  ls
+   58  clear
+   59  git push -u 
+   60  git help
+   61  git pull
+   62  git status
+   63  clear
+   64  cd ..
+   65  clear
+   66  ls
+   67  cd Files
+   68  ls
+   69  cp completehistory.txt ~/git
+   70  cd ..
+   71  cd git
+   72  ls
+   73  git status
+   74  git add .
+   75  git commit -m "history20201124"
+   76  git push
+   77  cd ..
+   78  clear
+   79  jupyter-lab
+   80  pwd
+   81  jupyter-lab
+   82  jupyter/lab
+   83  jupyter-lab
+   84  exit
+   85  jupyter/lab
+   86  jupyter-lab
+   87  conda install numpy
+   88  conda deactivate
+   89  conda activate
+   90  conda env list
+   91  conda create -n test
+   92  sudo su
+   93  apt-get install conda
+   94  conda search numpy
+   95  conda activave
+   96  conda activate
+   97  sudo su
+   98  python
+   99  conda env list
+  100  rm -rf ~/anaconda3
+  101  rm -rf ~/.condarc ~/.conda ~/.continuum
+  102  conda update --all
+  103  apt-get install conda
+  104  sudo apt-get install conda
+  105  sudo su
+  106  conda
+  107  conda install anaconda-clean
+  108  apt-get install conda
+  109  sudo su
+  110  apt-get install conda
+  111  sudo su
+  112  conda list
+  113  jupyter-lab
+  114  apt-get conda update
+  115  apt-get install conda
+  116  sudo su
+  117  history 0
+  118  sudo su
+  119  clear
+  120  less $PATH
+  121  pwd
+  122  ls
+  123  ls -l
+  124  cd ..
+  125  ls -l
+  126  less $PATH
+  127  ls
+  128  cd ..
+  129  ls -l
+  130  pwd
+  131  cd home
+  132  ls
+  133  la -l
+  134  clear
+  135  echo $PATH
+  136  cd ..
+  137  ls -l
+  138  cd home
+  139  ls
+  140  cd dsc
+  141  ls
+  142  gedit .bashrc
+  143  sudo su
+  144  cd /
+  145  ls
+  146  cd ~
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd tmp
+  151  ls
+  152  cd ..
+  153  ls
+  154  ll
+  155  clear
+  156  ls
+  157  l
+  158  ll
+  159  ls -l
+  160  clear
+  161  ls
+  162  dir
+  163  clear
+  164  dir
+  165  ls
+  166  cd /mnt
+  167  ls
+  168  ll
+  169  cd ..
+  170  cd bin
+  171  ls
+  172  cd ..
+  173  clear
+  174  ls
+  175  cd dev
+  176  ls
+  177  cd ..
+  178  cd etc
+  179  ls
+  180  less fstab
+  181  cd ..
+  182  ls
+  183  cd media
+  184  ls
+  185  cd dsc
+  186  ls
+  187  ls -l
+  188  cd ..
+  189  ls
+  190  cd root
+  191  cd usr
+  192  ls
+  193  cd games
+  194  ls
+  195  cd ..
+  196  clear
+  197  ls
+  198  cd sbin
+  199  ls
+  200  dc ..
+  201  cd ..
+  202  cd  /
+  203  ls
+  204  cd home/dsc
+  205  ls
+  206  cd Templates
+  207  ls
+  208  cd ..
+  209  clear
+  210  sudo su
+  211  conda env list
+  212  conda -h
+  213  less | conda -h
+  214  conda -h | less
+  215  conda create -n test
+  216  conda env list
+  217  conda activate test
+  218  conda env list
+  219  conda deactivate
+  220  conda env list
+  221  conda deactivate
+  222  conda env list
+  223  conta activate test
+  224  conda activate test
+  225  conda activate base
+  226  conda unistall numpy
+  227  conda uninstall numpy
+  228  conda list
+  229  conda activate test
+  230  conda list
+  231  conda activate base
+  232  conda env list
+  233  exit
+  234  cd &
+  235  cd /media
+  236  ls
+  237  cd dsc
+  238  ls
+  239  cd VBox_GAs_6.1.16
+  240  ls
+  241  bash autorun.sh
+  242  jupyter/lab
+  243  jupyter-lab
+  244  conda env list
+  245  conda env list
+  246  jupyter-lab
+  247  conda list
+  248  pip install wget
+  249  pip3 install wget
+  250  exit
+  251  exit
+  252  jupyter-lab
+  253  apt-get install jupyter-lab
+  254  sudo su
+  255  pip install pyspark
+  256  pip install --pip
+  257  pyspark
+  258  pip upgrade --pip
+  259  pip upgrade pi
+  260  pip upgrade pip
+  261  pip install --upgrade pip
+  262  export PATH="/home/dsc/.local/bin:$PATH"
+  263  pip install pyspark
+  264  pip install --upgrade pip
+  265  conda list
+  266  pyspark
+  267  jupyterlab
+  268  jupyter/lab
+  269  jupyter-lab
+  270  o
+  271  bind '"\C-0":"\C-/"'
+  272  bind '"\C-0":\C-/'
+  273  bind '"\C-0":"\C-//"'
+  274  bind '"\C-0":"\C-"/"'
+  275  exit
+  276  jupyter-lab
+  277  history
+  278  bind '"\¡":"\/"'
+  279  echo Ctrl+/
+  280  echo (Ctrl+/)
+  281  apt-get install xbindkeys
+  282  sudo su
+  283  reboot
+  284  cd /media
+  285  ls
+  286  cd dsc
+  287  ls
+  288  ls -a
+  289  cd ..
+  290  ls
+  291  cd mny
+  292  cd mnt
+  293  ls
+  294  la
+  295  ls
+  296  ls -a
+  297  cd ..
+  298  cd 
+  299  cd ..
+  300  cd /dev
+  301  ls
+  302  cd ..
+  303  ls
+  304  cd ~/Desktop
+  305  ls
+  306  ls -a
+  307  cd /media/dsc
+  308  ls
+  309  umount Vb
+  310  xev | grep button
+  311  xev | sed -ne '/^KeyPress/,/^$/p'
+  312  cd ~/
+  313  clear
+  314  xbindkeys -d > ~/.xbindkeysrc
+  315  gedit .xbindkeysrc
+  316  xbindkeys
+  317  killall xbindkeys
+  318  xbindkeys
+  319  jupyter-lab
+  320  xbindkeys
+  321  gedit .xbindkeysrc
+  322  jupyter-lab
+  323  gedit .xbindkeysrc
+  324  killall xbindkeys
+  325  xbindkeys
+  326  xev | grep button
+  327  gedit .xbindkeysrc
+  328  killall xbindkeys
+  329  xbindkeys
+  330  gedit .xbindkeysrc
+  331  killall xbindkeys
+  332  restart xbindkeys
+  333  xbindkeys
+  334  gedit .xbindkeysrc
+  335  killall xbindkeys
+  336  remove xbindkeys
+  337  apt-get autoclean xbinkeys
+  338  sudo su
+  339  sudo gedit /etc/default/keyboard
+  340  mkdir -p /usr/local/share/kbd/keymaps
+  341  ls
+  342  clear
+  343  cp /usr/share/kbd/keymaps/personal.map.gz ~/
+  344  cd /usr
+  345  ls
+  346  cd share
+  347  ls
+  348  cd kde4
+  349  ls
+  350  cd services
+  351  ls
+  352  cd ..
+  353  ls
+  354  cd keyrings
+  355  ls
+  356  cd /etc/vconsole.conf
+  357  gedit /etc/vconsole.conf
+  358  sudo apt-get install console-data
+  359  find .mpa
+  360  find .map
+  361  find /usr .map
+  362  find / keymaps
+  363  xmodmap
+  364  sudo -i
+  365  sudo su
+  366  xmodmap -pke > ~/.Xmodmap
+  367  ~/xinitrc
+  368  cd /etc/X11/xinit/xinirc
+  369  gedit/etc/X11/xinit/xinirc
+  370  gedit /etc/X11/xinit/xinirc
+  371  ls
+  372  clear
+  373  ls
+  374  ls -a
+  375  .Xmodmap
+  376  gedit .Xmodmap
+  377  sudo su
+  378  ls .X
+  379  ls -a *X
+  380  ls .e*
+  381  *.e
+  382  ls *.e
+  383  ls .
+  384  ls -a *.X
+  385  ls
+  386  lc
+  387  ls
+  388  ls .*
+  389  ls -a *.X
+  390  ls *X
+  391  ls  x*
+  392  ls -a
+  393  ls help
+  394  ls -d .X*
+  395  ls -d X
+  396  ls -d x
+  397  ls -a -d x
+  398  ls -a -d .x
+  399  ls -a -d .X
+  400  ls  .X
+  401  ls -d .X
+  402  ls  -a -d .X*
+  403  ls  -a .X*
+  404  ls
+  405  ls di*
+  406  ls -d di*
+  407  ls .X*
+  408  rm .Xmod
+  409  rm .Xmodmap
+  410  ls .X*
+  411  ls .*
+  412  ls -d .*
+  413  rm .xbindkeysrc
+  414  ls -d .*
+  415  apt-get remove xbindkeys
+  416  sudo su
+  417  exit
+  418  gedit .Xmodmap
+  419  ls .X
+  420  ls -d .X
+  421  gedit /etc/X11/xinit/xinirc
+  422  gedit /etc/vconsole.conf
+  423  xev | grep button
+  424  sudo apt-get remove console-data
+  425  sudo apt-get autoclean console-data
+  426  sudo apt-get clean console-data
+  427  sudo apt-get n console-data
+  428  sudo apt-get autoremove console-data
+  429  exit
+  430  conda env list
+  431  conda change test
+  432  conda?
+  433  conda -p
+  434  conda -l
+  435  conda help
+  436  conda .h
+  437  conda -h
+  438  conda activate test
+  439  conda env list
+  440  conda deactivate
+  441  jupyterlab
+  442  jupyter-lab
+  443  conda env list
+  444  conda list
+  445  exit
+  446  apt upgrade
+  447  sudo su
+  448  exit
+  449  jupyter-lab
+  450  cd /
+  451  clear
+  452  ls
+  453  cd git
+  454  pwd
+  455  cd /home
+  456  clear
+  457  ls
+  458  cd dsc
+  459  ls
+  460  clear
+  461  ls
+  462  de git
+  463  ls
+  464  clear
+  465  cd git
+  466  ls
+  467  git branch master
+  468  git chekout master
+  469  git chekout main
+  470  git checkout main
+  471  git checkout master
+  472  clear
+  473  ls
+  474  cp ~/Documents/Linear\ Regression\ with\ Python\ \(clean\).ipynb 
+  475  cp ~/Documents/Linear\ Regression\ with\ Python\ \(clean\).ipynb .
+  476  ls
+  477  git push
+  478  git add .
+  479  git commit -m "linear regresion"
+  480  git push
+  481  git pull
+  482  git add .
+  483  git commit -m "linear regresion"
+  484  git push
+  485  exit
+  486  exit
+  487  jupyter-lab
+  488  ifconfig
+  489  ipcofnig
+  490  ipconfig
+  491  ifconfig
+  492  exit
+  493  exit
+  494  jupyter-lab
+  495  history 0
+  496  ls
+  497  cd git
+  498  cd ..
+  499  cd git
+  500  git metge
+  501  git merge
+  502  git checkout test
+  503  git checkout main
+  504  git checkout master
+  505  git cd ..
+  506  cd ..
+  507  clear
+  508  cd git
+  509  ls
+  510  cd ..
+  511  ls
+  512  cd Data
+  513  ls
+  514  clear
+  515  history
+  516  history 0
+  517  cd ..
+  518  ls
+  519  less .history
+  520  cat -m .history
+  521  cat 
+  522  clear
+  523  help cat
+  524  help(cat)
+  525  cat help
+  526  cat?
+  527  cat --help
+  528  cat -n .history
+  529  clear
+  530  cd git
+  531  clear
+  532  ls
+  533  cd ..
+  534  history 0 > hola.txt
+  535  ls
+  536  less hola.txt
+  537  cat hola.txt
+  538  clear
+  539  rm hola.txt
+  540  clear
+  541  cd git
+  542  ls
